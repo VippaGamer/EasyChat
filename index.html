@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>簡易聊天室</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Dialog" id="Dialog">
+        <div class="MsgRow">
+            <div class="Msg">
+                <span style="font-size:14px">[00:00:00]</span>
+                測試機器人一號：Hello World！
+            </div>
+        </div>
+        <div class="MsgRow">
+            <div class="Msg">
+                <span style="font-size:14px">[00:00:00]</span>
+                測試機器人二號：wryyyyyyyyyyy！
+            </div>
+        </div>
+    </div>
+    <div class="SayToolbar">
+        <input type="text" id="Say" class="Say">
+        <button class="btnSay" onclick="SendMySay()">發送</button>
+        <div class="SayModify">
+            <label>暱稱：</label><label for="Say" onclick="ChangePlayerName()" id="PlayerName">Guest</label>
+            <div class="ModifyFontColor">
+                <label>文字顏色：</label>
+                <select id="FontColor">
+                    <option value="#000000">黑色</option>
+                    <option value="#FF0000">紅色</option>
+                    <option value="#0000FF">藍色</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
+

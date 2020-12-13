@@ -1,0 +1,71 @@
+* {
+    font-family: "微軟正黑體";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Dialog {
+    background: #EEEEEE;
+    margin: 20px 80px 0px 80px;
+    padding-top: 10px;
+    padding-right: 3px;
+    height: 500px;
+    overflow-x: auto;
+}
+
+.MsgRow {
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.MyMsgRow {
+    text-align: right;
+}
+
+.Msg {
+    padding: 15px;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: #DADADA;
+}
+
+.MyMsg {
+    background-color: greenyellow;
+    
+}
+
+.SayToolbar {
+    margin: 20px 80px 0px 80px;
+}
+
+.Say {
+    width: 1260px;
+    height: 35px;
+    font-size: 24px;
+}
+
+.btnSay {
+    background-color: #FFFFFF;
+    border: 3px solid #5555FF;
+    border-radius: 15px;
+    color: #5555FF;
+    height: 45px;
+    width: 85px;
+}
+
+.btnSay:hover {
+    background-color: #5555FF;
+    border: 3px solid #77FFEE;
+    border-radius: 5px;
+    color: #FFFFFF;
+    height: 45px;
+    width: 85px;
+}
+
+.SayModify {
+    margin-top: 10px;
+}
+
+.ModifyFontColor {
+    margin-top: 8px;
+}
